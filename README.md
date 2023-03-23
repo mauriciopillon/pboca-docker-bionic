@@ -37,7 +37,7 @@ passwd: boca <br>
 * senha boca <br>
 * criar usuários e alterar senha do admin<br>
 
-## Cliente autojugde scripts de instalação
+## Cliente autojudge scripts de instalação
 Versão Inicial: Calebe de Paula Bianchini <br>
 Versão atualizada: Maurício Aronne PILLON <br>
 Última Modificação: 23/03/2023 <br>
