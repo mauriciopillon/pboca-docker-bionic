@@ -1,5 +1,5 @@
 
-Versão Inicial: João Vicente Lima
+Versão Inicial: João Vicente Lima <br>
 Versão atualizada: Maurício Aronne PILLON
 ## Última Modificação: 23/03/2023
 ## Distributor ID: Ubuntu
