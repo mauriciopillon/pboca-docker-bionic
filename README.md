@@ -1,4 +1,4 @@
-################################################################################################
+#######
 ### Versão Inicial: João Vicente Lima
 ### Versão atualizada: Maurício Aronne PILLON
 ### Última Modificação: 23/03/2023
@@ -10,7 +10,7 @@
 #### Copyright (c) 1997-2016 The PHP Group
 #### Zend Engine v2.6.0, Copyright (c) 1998-2016 Zend Technologies
 ####    with Zend OPcache v7.0.6-dev, Copyright (c) 1999-2016, by Zend Technologies
-################################################################################################
+#######
 Docker container for ERAD-RS MPP 2023 Marathon
 
 ## Clonagem dos arquivos de instalação docker pBoca
@@ -25,14 +25,14 @@ sudo docker-compose up --build
 Cltr a+d
 
 ## Versão atual lança o pBoca na porta 443
-navegador: http://<IP>:<PORTA>/boca/
-login: system
-passwd: boca
-
-(*) criar contest
-(*) habilitar contest
-(*) logar como admin
-(*) senha boca
+#navegador: http://<IP>:<PORTA>/boca/
+#login: system
+#passwd: boca
+#
+#(*) criar contest
+#(*) habilitar contest
+#(*) logar como admin
+#(*) senha boca
 
 (*) criar usuários e alterar senha do admin
 
