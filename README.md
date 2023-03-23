@@ -1,11 +1,11 @@
 # docker-mpp
 Docker container for ERAD-RS MPP 2023 Marathon
 
-mpillon@semele:~/docker-mpp-master$ pwd
-/home/mpillon/docker-mpp-master
+git clone https://github.com/mauriciopillon/pboca-docker-bionic
+cd pboca-docker-bionic/
 sudo docker-compose up --build
 
-navegador: http://150.230.88.209:9090/boca/
+navegador: http://<IP>:<PORTA>/boca/
 login: system
 passwd: boca
 
@@ -16,3 +16,4 @@ passwd: boca
 
 (*) criar usuários e alterar senha do admin
 
+# pboca-docker-bionic
