@@ -1,17 +1,18 @@
+# Docker container for ERAD-RS MPP 2023 Marathon
 
 Versão Inicial: João Vicente Lima <br>
-Versão atualizada: Maurício Aronne PILLON
-## Última Modificação: 23/03/2023
-## Distributor ID: Ubuntu
-## Description:    Ubuntu 18.04.6 LTS
-## Release:        18.04
-## Codename:       bionic
-## PHP 5.6.40-65+ubuntu18.04.1+deb.sury.org+1 (cli) 
-##    Copyright (c) 1997-2016 The PHP Group
-##     Zend Engine v2.6.0, Copyright (c) 1998-2016 Zend Technologies
-##     with Zend OPcache v7.0.6-dev, Copyright (c) 1999-2016, by Zend Technologies
-#######
-Docker container for ERAD-RS MPP 2023 Marathon
+Versão atualizada: Maurício Aronne PILLON <br>
+Última Modificação: 23/03/2023 <br>
+Distributor ID: Ubuntu <br>
+Description:    Ubuntu 18.04.6 LTS <br>
+Release:        18.04 <br>
+Codename:       bionic <br>
+PHP 5.6.40-65+ubuntu18.04.1+deb.sury.org+1 (cli) <br>
+    Copyright (c) 1997-2016 The PHP Group <br>
+     Zend Engine v2.6.0, Copyright (c) 1998-2016 Zend Technologies <br>
+     with Zend OPcache v7.0.6-dev, Copyright (c) 1999-2016, by Zend Technologies <br>
+<br>
+
 
 ## Clonagem dos arquivos de instalação docker pBoca
 git clone https://github.com/mauriciopillon/pboca-docker-bionic
