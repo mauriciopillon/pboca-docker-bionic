@@ -13,6 +13,7 @@ PHP 5.6.40-65+ubuntu18.04.1+deb.sury.org+1 (cli) <br>
      with Zend OPcache v7.0.6-dev, Copyright (c) 1999-2016, by Zend Technologies <br>
 <br>
 URL: http://lspd.mackenzie.br/marathon/current/index.html <br>
+GIT original (João V. Lima): https://github.com/joao-lima/boca.git <br>
 
 
 ## Clonagem dos arquivos de instalação docker pBoca
