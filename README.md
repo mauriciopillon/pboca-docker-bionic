@@ -31,11 +31,11 @@ navegador: http://IP:PORTA/boca/ <br>
 login: system <br>
 passwd: boca <br>
 <br>
-(*) criar contest <br>
-(*) habilitar contest <br>
-(*) logar como admin <br>
-(*) senha boca <br>
-(*) criar usuários e alterar senha do admin<br>
+* criar contest <br>
+* habilitar contest <br>
+* logar como admin <br>
+* senha boca <br>
+* criar usuários e alterar senha do admin<br>
 
 ## Cliente autojugde scripts de instalação
 Versão Inicial: Calebe de Paula Bianchini <br>
