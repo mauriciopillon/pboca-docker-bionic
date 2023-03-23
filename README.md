@@ -25,9 +25,9 @@ sudo docker-compose up --build
 Cltr a+d
 
 ## Versão atual lança o pBoca na porta 443
-#navegador: http://<IP>:<PORTA>/boca/
-#login: system
-#passwd: boca
+# navegador: http://<IP>:<PORTA>/boca/
+# login: system
+# passwd: boca
 #
 #(*) criar contest
 #(*) habilitar contest
