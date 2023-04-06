@@ -43,7 +43,5 @@ Versão atualizada: Maurício Aronne PILLON <br>
 Última Modificação: 23/03/2023 <br>
 
 cd autojudge-install<br>
-cp -r autojudge-install /root  # (ou modifique o diretório de destino no script) <br>
-cd /root/autojudge-install <br>
 bash install-autojudge-BOCA.sh <br>
 

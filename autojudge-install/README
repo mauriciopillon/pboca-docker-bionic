@@ -1,0 +1,40 @@
+## Versão de 10/02/2023
+## Autor: Maurício Aronne Pillon
+
+# root user
+# login na ens5 (servidor autojudge)
+
+# Fontes do instalador
+$ git clone mycodes/myboca/btools/autojudge-install
+
+# Instalação dos prerequisitos e o autojudge
+$ cd /root/autojudge-install/
+$ sh install-autojudge-BOCA.sh
+
+# Configuração do $PATH
+$ vi ~/.bashrc
+
+### insert line by autojugde install
+MPP="autojudge-bin/"
+PREFIX=$HOME"/"$MPP
+export PATH=$PREFIX/bin:$PATH:
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$PREFIX/lib
+
+# Configuração do serviço de startup no boot
+## https://linuxconfig.org/how-to-run-script-on-startup-on-ubuntu-22-04-jammy-jellyfish-server-desktop
+$ cp boca.service /etc/systemd/system/.
+$ chmod 744 /root/autojudge-bin/bin/bc-autojudge.sh
+$ chmod 664 /etc/systemd/system/bpaa.service
+$ chmod 664 /etc/systemd/system/bsdi.service
+$ chmod 664 /etc/systemd/system/semele.service
+
+$ systemctl daemon-reload
+$ systemctl enable bpaa.service
+$ systemctl enable bsdi.service
+$ systemctl enable semele.service
+
+# Configuração da rede de redirecionamento de portas para acesso externo 
+#   - Autojudge não tem IP externo válido (rede interna NAT)
+$ cd /root/autojudge-install/
+$ cp ssh-config-autojugde /root/.ssh/config
+
