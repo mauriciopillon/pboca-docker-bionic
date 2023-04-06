@@ -8,10 +8,6 @@ RED='\033[0;31m'
 NC='\033[0m' # No Color
 LOCAL=`pwd`
 
-echo -e "${RED} Downloading and installing PostgreSQL ${NC}"
-echo "${RED} Downloading and installing PostgreSQL ${NC}"
-exit 
-
 mkdir ../$MPP
 
 #echo "${RED}Installation at "$PREFIX
