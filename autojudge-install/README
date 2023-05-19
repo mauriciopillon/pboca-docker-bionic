@@ -5,11 +5,11 @@
 # login na ens5 (servidor autojudge)
 
 # Fontes do instalador
-$ git clone mycodes/myboca/btools/autojudge-install
+$ git clone pboca-docker-bionic/autojudge-install
 
 # Instalação dos prerequisitos e o autojudge
-$ cd /root/autojudge-install/
-$ sh install-autojudge-BOCA.sh
+$ cd /$HOME/autojudge-install/
+$ bash install-autojudge-BOCA.sh
 
 # Configuração do $PATH
 $ vi ~/.bashrc
@@ -35,6 +35,6 @@ $ systemctl enable semele.service
 
 # Configuração da rede de redirecionamento de portas para acesso externo 
 #   - Autojudge não tem IP externo válido (rede interna NAT)
-$ cd /root/autojudge-install/
+$ cd /$HOME/autojudge-install/
 $ cp ssh-config-autojugde /root/.ssh/config
 

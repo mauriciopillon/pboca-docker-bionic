@@ -74,6 +74,7 @@ CC=gcc CXX=g++ make install
 cd ..
 
 cp $LOCAL/bc-autojudge.sh $PREFIX/bin/.
+chmod +x $PREFIX/bin/bc-autojudge.sh
 
 echo -e "${RED} If installed corretly, press Y to continue ${NC}"
 read yes
@@ -84,7 +85,13 @@ fi
 
 echo -e "${RED}Boca autojudge install ...${NC}"
 cd $PREFIX
-tar xvzf $LOCAL/autojudge.tgz  
+#tar xvzf $LOCAL/autojudge.tgz  
+tar xvzf $LOCAL/autojudge-mpp-minimal.tgz
+cp $LOCAL/runJudge.sh $PREFIX/bin/.
+chmod +x $PREFIX/bin/runJudge.sh
+
+mkdir $PREFIX/bocatmp/
+sed -i 's|/work/mauricio.udesc/|'$PREFIX'|' $PREFIX/src-minimal/private/autojudging.php
 
 echo -e "${RED} If installed corretly, press Y to continue ${NC}"
 read yes
