@@ -1,8 +1,7 @@
 ## Versão de 10/02/2023
 ## Autor: Maurício Aronne Pillon
 
-# root user
-# login na ens5 (servidor autojudge)
+# login no servidor autojudge
 
 # Fontes do instalador
 $ git clone pboca-docker-bionic/autojudge-install
@@ -13,6 +12,16 @@ $ bash install-autojudge-BOCA.sh
 
 # Configuração do $PATH
 $ vi ~/.bashrc
+
+# Configuração tunel (caso o autojudge não estiver na mesma máquina)
+$ vi .ssh/config
+
+Host bocaDB
+        HostName <IP-portal-boca>
+        User <User-ssh-portal-boca>
+        Port <Port-ssh-portal-boca>
+        LocalForward localhost:5432 <IP-portal-boca>:5432
+        IdentityFile <PATH-key-user-boca-in-portal>
 
 ### insert line by autojugde install
 MPP="autojudge-bin/"
