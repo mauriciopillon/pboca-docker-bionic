@@ -75,6 +75,8 @@ cd ..
 
 cp $LOCAL/bc-autojudge.sh $PREFIX/bin/.
 chmod +x $PREFIX/bin/bc-autojudge.sh
+cp $LOCAL/bc-logs.sh $PREFIX/bin/.
+chmod +x $PREFIX/bin/bc-logs.sh
 
 echo -e "${RED} If installed corretly, press Y to continue ${NC}"
 read yes
@@ -90,8 +92,10 @@ tar xvzf $LOCAL/autojudge-mpp-minimal.tgz
 cp $LOCAL/runJudge.sh $PREFIX/bin/.
 chmod +x $PREFIX/bin/runJudge.sh
 
+export QUEMSOU=`whoami`
 mkdir $PREFIX/bocatmp/
 sed -i 's|/work/mauricio.udesc/|'$PREFIX'|' $PREFIX/src-minimal/private/autojudging.php
+sed -i 's|mauricio.udesc|'$QUEMSOU'|' $PREFIX/src-minimal/private/autojudging.php
 
 echo -e "${RED} If installed corretly, press Y to continue ${NC}"
 read yes
